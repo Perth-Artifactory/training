@@ -4,14 +4,37 @@ Checklists for operating the lasers
 
 ### Big Red
 
+* **Set your job up in LaserCut**
 * **Turn the laser on at the wall**
   * **Check that the water chiller turned on**. It's the white box to the left of the laser cutter. You can tell that it's on because the green light will be on. Don't worry about the temperature just yet.
   * **Check that the extraction system turned on**. Big red uses a large air extractor that is connected to the back of the machine. Fumes are pulled out of the machine through slots located inside the cutting bay behind the bed. Put your hand over these slots and check for slight air movement.
-* **Set your job up in LaserCut**.
 * **Place your material on the bed**
-  * **Make sure that your material will fit under the head**. Because Big Red's bed can move up and down it's possible for the bed to be raised to a point where your material will not fit. To lower the bed press the Z button to switch into vertical mode and use the down arrow. To exit vertical mode press the Z button again.
+  * **Make sure that your material will fit under the head**. Because Big Red's bed can move up and down it's possible for the bed to be raised to a point where your material will not fit. To lower the bed press the `Z` button to switch into vertical mode and use the down arrow. To exit vertical mode press the `Z` button again.
   * **Square your material**. The bed itself is free to slide around and cannot be relied upon to be square. The only horizontal squared surface is the gantry. (The bar that the laser head moves left and right on)
-  * **If engraving ensure enough space has been left on either side of your job**. To ensure consistant engraves Big Red adds speed up/slow down buffers on each side. Unfortunately it does not take this buffer into account when determining whether your job will fit. To account for this make sure that there is at least a 5cm gap between your engrave and the edge of the bed on the horizontal axis. Don't worry, the laser isn't firing during the buffer space.
+  * **If engraving ensure enough space has been left on both sides of your job**. To ensure consistant engraves Big Red adds speed up/slow down buffers on each side. Unfortunately it does not take this buffer into account when determining whether your job will fit. To account for this make sure that there is at least a 5cm gap between your engrave and the edge of the bed on the horizontal axis. Don't worry, the laser isn't firing during the buffer space.
+  * **Check whether your design will fit on your material**. The `test` button will use the head to trace a *rectangular* bounding box. You can use this bounding box to estimate whether your design will fit. The only consequence of your design not fitting is the completeness of your final piece, the laser can safely be directed at the laser bed without issue.
+    * If LaserCut is set to `absolute` mode the test button will first move the head to the corner of the design as decided by the layout within LaserCut
+    * If LaserCut is set to `immediate` mode the test button will trace out your design by assuming that the head starts at the top left
+ * **Focus the laser**
+   * Check whether the material you're cutting is hard or soft. If your material is soft (like foam, leather, fabric, toast etc) find a piece of hard material (wood/acrylic/metal) that is similar in thickness to your material and perform the following steps on the hard material instead. Once the laser is focused you can swap back to your intended material.
+   * Ensure that the Z probe (the stick on the left hand side of the cutting head) is over the *center of your desired cutting area*. Failure to position the probe direclty over your material during this step has a high likelyhood of damaging the machine.
+   * Switch the laser into Z/vertical mode by pressing the `Z` button.
+   * Place your hand over the emergency stop button. In the event that the z probe fails to register during the next step the only thing preventing damage to the machine is your reaction time pressing the emergency stop button.
+   * Press the `Datum` button. The bed will rise until the sensor on the Z probe is depressed. It will then lower the bed a preconfigured amount.
+   * Repeat this process when changing the thickness of the material you're cutting or when you significantly reposition your material on the bed.
+ * **Check the temperature on the chiller**. There is a display on the front of the chiller. It is safe to operate when the chiller is displaying 25.5C or lower. If the temperature is above this limit wait a few minutes and check again.
+ * **Familiarise yourself with the location of your fire suppression equipment**. Identify your closest spray bottle, fire blanket, and fire exstinguisher.
+ * **Turn on the air assist**. Turn the red lever on the left hand side of the machine 90 degrees to open the air valve. Put your hand under the head to confirm that the air is flowing correctly through the head and not through a hole in the air line.
+ * **Close the lid**
+ * **Cut/Engrave your design**. Press `Start/Pause` and your laser job will begin. You must actively supervise the laser cutting for the duration of your job. If need be the laser can be interrupted in several ways:
+   * The `Start/Pause` button will pause your job. This is good if you need to walk away from the machine. The job can be resumed by pressing the button again.
+   * The `Stop` button will end the job and return the cutting head to the starting position.
+   * The emergency stop will immediately shut down the laser.
+ * **Turn off the air assist**. The laser cutters are situated close to the social and project areas. To prevent unnecessary noise pollution turn off the air assist before opening the lid of the machine.
+ * **Remove your material**. Remove your design and discard of any scraps created.
+ * **Turn off the laser cutter at the wall**
+
+
 
 ### Middle Red
 
