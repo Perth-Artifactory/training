@@ -15,7 +15,8 @@ This is a copy of the [operation checklist](./operation_checklist.md) with annot
 <details>
   <summary>What should LaserCut training involve?</summary>
   The LaserCut training should focus on cutting an existing DXF. Preferrably including the following:
-  
+
+* Why we need to use LaserCut (emphasise not using it for design)
 * What the software can open vs import
 * The representation of the bed
 * Why is my design scaled 25.4/2.54/.1
