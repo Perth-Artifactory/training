@@ -25,6 +25,8 @@ This is a copy of the [operation checklist](./operation_checklist.md) with annot
 * Where to find speeds / sample cards
 * Unjoined/broken lines
 * Design placement (Absolute v relative)
+* How to download files to the laser
+* Accurate and innacurate time estimates
 </details>
 
 * **Turn the laser on at the wall**
