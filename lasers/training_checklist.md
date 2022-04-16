@@ -27,6 +27,8 @@ This is a copy of the [operation checklist](./operation_checklist.md) with annot
 * Design placement (Absolute v relative)
 * How to download files to the laser
 * Accurate and innacurate time estimates
+  
+A demonstration file can be found [here](./flex%20logo%20TRAINING.dxf) or in `\\filer\shared\Resources\Laser\Training`. The files labelled as "training" have a broken vector on the first letter of Artifactory that will need to be joined before it can be engraved.
 </details>
 
 * **Turn the laser on at the wall**
