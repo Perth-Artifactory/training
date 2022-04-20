@@ -13,11 +13,11 @@ Considerations:
 * **Cut edge properties**: The burnt edge of MDF will not take paint well and has a distinctive finish. Light sanding can fix this but the difficulty is directly related to the complexity of the piece.
 
 Thicknesses:
-|            | Works | Edge affected |  |
-|------------|-------|---------------|--|
-| Big Red    |       |               |  |
-| Middle Red |       |               |  |
-| Little Red |       |               |  |
+|            | Works | Edge affected | Edge significantly affected |
+|------------|-------|---------------|-----------------------------|
+| Big Red    | 12    | 12            | 16                          |
+| Middle Red | 3     | 6             | 9                           |
+| Little Red | 3     | 6             | 9                           |
 
 ### Plywood
 
@@ -30,10 +30,11 @@ Considerations:
 * **Painting**: Plywood paints and seals well.
 * **Cut edge properties**: The burnt edge of plywood will not take paint well and has a distinctive finish. Light sanding can fix this but the difficulty is directly related to the complexity of the piece. Additionally unless covered in some way (paint/veneer etc) it will always be easily distinguished as plywood.
 
+Thicknesses:
 |            | Works | Edge affected | Edge significantly affected |
 |------------|-------|---------------|-----------------------------|
 | Big Red    | 12    | 18            | 18                          |
-| Middle Red | 3     | 7             | >7                          |
+| Middle Red | 3     | 7             | \>7                         |
 | Little Red | 3     | 7             | >7                          |
 
 ### Pine
