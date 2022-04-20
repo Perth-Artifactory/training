@@ -43,6 +43,20 @@ Thicknesses:
 
 ## Plastic
 
+Certain plastics are completely banned from use on the lasers due to their dangerous byproducts. If you cannot 100% identify the plastic you intend to cut consult with a laser trainer/maintainer before cutting.
+
+### Acrylic
+
+### HDPE
+
+### Polycarbonate
+
+### PVC / Vinyl
+
+The information below has been included for informational purposes only. Under no circumstances should PVC be cut on the lasers at any time. Vinyl can be safely cut on on the Vinyl cutter located in the Design Lab.
+
+PVC contains chlorine which is released when cutting on the lasers in the form of chlorine gas. This gas is harmful to laser componentry and people. Material containing chlorine can be recognised by a yellow smoke being released. If you see this gas immediately press the emergency stop on the machine and step away from the laser until the gas has been extracted. If the laser has been in operation for more than 5 seconds **you must evacuate the courtyard and laser area**. Depending on the respiratory health of attendees on the day they may need to seek emergency medical attention. Alert your nearest committee member if one is present in the space.
+
 ## Fabric
 
 ## Paper / Cardboard
