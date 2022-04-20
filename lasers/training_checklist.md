@@ -14,7 +14,7 @@ This is a copy of the [operation checklist](./operation_checklist.md) with annot
 * **Set your job up in LaserCut**
 <details>
   <summary>What should LaserCut training involve?</summary>
-  The LaserCut training should focus on cutting an existing DXF. Preferrably including the following:
+  The LaserCut training should focus on cutting an existing DXF. Preferably including the following:
 
 * Why we need to use LaserCut (emphasise not using it for design)
 * What the software can open vs import
@@ -57,7 +57,7 @@ A demonstration file can be found [here](./flex%20logo%20TRAINING.dxf) or in `\\
 
  * **Focus the laser**
    * Check whether the material you're cutting is hard or soft. If your material is soft (like foam, leather, fabric, toast etc) find a piece of hard material (wood/acrylic/metal) that is similar in thickness to your material and perform the following steps on the hard material instead. Once the laser is focused you can swap back to your intended material.
-   * Ensure that the Z probe (the stick on the left hand side of the cutting head) is over the *centre of your desired cutting area*. Failure to position the probe direclty over your material during this step has a high likelyhood of damaging the machine.
+   * Ensure that the Z probe (the stick on the left hand side of the cutting head) is over the *centre of your desired cutting area*. Failure to position the probe directly over your material during this step has a high likelihood of damaging the machine.
    * Switch the laser into Z/vertical mode by pressing the `Z` button.
    * Place your hand over the emergency stop button. In the event that the z probe fails to register during the next step the only thing preventing damage to the machine is your reaction time pressing the emergency stop button.
    * Press the `Datum` button. The bed will rise until the sensor on the Z probe is depressed. It will then lower the bed a pre-configured amount.

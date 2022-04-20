@@ -50,7 +50,7 @@ Checklists for operating the lasers
     * If Light Burn is set to `TODO` mode the test button will trace out your design by aligning it with a user set origin point. You can change this origin point using the origin button.
  * **Focus the laser**
    * Check whether the material you're cutting is hard or soft. If your material is soft (like foam, leather, fabric, toast etc) find a piece of hard material (wood/acrylic/metal) that is similar in thickness to your material and perform the following steps on the hard material instead. Once the laser is focused you can swap back to your intended material.
-   * Ensure that the Z probe (the stick on the left hand side of the cutting head) is over the *center of your desired cutting area*. Failure to position the probe direclty over your material during this step has a high likelyhood of damaging the machine.
+   * Ensure that the Z probe (the stick on the left hand side of the cutting head) is over the *center of your desired cutting area*. Failure to position the probe directly over your material during this step has a high likelihood of damaging the machine.
    * Open the menu by pressing the `Z/U` button.
    * Navigate to the menu item `TODO`, it will be the last option in the first column.
    * Place your hand over the emergency stop button. In the event that the z probe fails to register during the next step the only thing preventing damage to the machine is your reaction time pressing the emergency stop button.
