@@ -11,7 +11,7 @@ This is a copy of the [operation checklist](./operation_checklist.md) with annot
 
 ### Big Red
 
-* **Set your job up in LaserCut**
+* **Set your job up in [LaserCut](./LaserCut.md)**
 <details>
   <summary>What should LaserCut training involve?</summary>
   The LaserCut training should focus on cutting an existing DXF. Preferably including the following:
@@ -47,10 +47,15 @@ A demonstration file can be found [here](./flex%20logo%20TRAINING.dxf) or in `\\
   * **Check whether your design will fit on your material**. The `test` button will use the head to trace a *rectangular* bounding box. You can use this bounding box to estimate whether your design will fit. The only consequence of your design not fitting is the completeness of your final piece, the laser can safely be directed at the laser bed without issue.
     * If LaserCut is set to `absolute` mode the test button will first move the head to the corner of the design as decided by the layout within LaserCut
     * If LaserCut is set to `immediate` mode the test button will trace out your design by assuming that the head starts at the top left
+    * If the laser presents a `Soft Stop` error and emits a long beep your intended cut will cause the machine to go out of bounds. This has four primary causes:
+      * Your design is too big
+      * The head isn't positioned close enough to the top left to accommodate the size of the design
+      * There are rouge lines in LaserCut. This can be checked by dragging a selection box around your design and pressing delete. If all of the entries in the layer list fail to disappear you have rogue lines somewhere outside the confines of the bed.
+      * The laser origin point has been changed. Use Laser -> Set laser origin -> `TODO` to correct. You will need to download your job again.
 <details><summary>Trainer advice</summary>
   This is going to be their first time operating the laser so talk about why we need to use the escape button, how to tell when the controller has registered a button press, and why it's called Z.
 
-  Emphasising the rectangular nature of the test will help operators down the line when engraving round designs.
+  Emphasising the rectangular nature of the test will help operators down the line when engraving round designs. Demonstrate a soft stop so that they know what it looks and sounds like.
   
   It's really easy for a trainee to focus on alignment by using the controls, remind them that they can also physically move their material as well.
 </details>

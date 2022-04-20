@@ -4,7 +4,7 @@ Checklists for operating the lasers
 
 ### Big Red
 
-* **Set your job up in LaserCut**
+* **Set your job up in [LaserCut](./LaserCut.md)**
 * **Turn the laser on at the wall**
   * **Check that the water chiller turned on**. It's the white box to the left of the laser cutter. You can tell that it's on because the green light will be on. Don't worry about the temperature just yet.
   * **Check that the extraction system turned on**. Big Red uses a large air extractor that is connected to the back of the machine. Fumes are pulled out of the machine through slots located inside the cutting bay behind the bed. Put your hand over these slots and check for slight air movement.
@@ -15,6 +15,11 @@ Checklists for operating the lasers
   * **Check whether your design will fit on your material**. The `test` button will use the head to trace a *rectangular* bounding box. You can use this bounding box to estimate whether your design will fit. The only consequence of your design not fitting is the completeness of your final piece, the laser can safely be directed at the laser bed without issue.
     * If LaserCut is set to `absolute` mode the test button will first move the head to the corner of the design as decided by the layout within LaserCut
     * If LaserCut is set to `immediate` mode the test button will trace out your design by assuming that the head starts at the top left
+    * If the laser presents a `Soft Stop` error and emits a long beep your intended cut will cause the machine to go out of bounds. This has four primary causes:
+      * Your design is too big
+      * The head isn't positioned close enough to the top left to accommodate the size of the design
+      * There are rouge lines in LaserCut. This can be checked by dragging a selection box around your design and pressing delete. If all of the entries in the layer list fail to disappear you have rogue lines somewhere outside the confines of the bed.
+      * The laser origin point has been changed. Use Laser -> Set laser origin -> `TODO` to correct. You will need to download your job again.
  * **Focus the laser** 
    * Check whether the material you're cutting is hard or soft. If your material is soft (like foam, leather, fabric, toast etc) find a piece of hard material (wood/acrylic/metal) that is similar in thickness to your material and perform the following steps on the hard material instead. Once the laser is focused you can swap back to your intended material.
    * Ensure that the Z probe (the stick on the left hand side of the cutting head) is over the *centre of your desired cutting area*. Failure to position the probe directly over your material during this step has a high likelihood of damaging the machine.
