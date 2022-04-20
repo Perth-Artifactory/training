@@ -13,6 +13,7 @@
     * Scan gap is the distance between each line of an engrave. It is not present when the selected layer is set to Cut.
   * Ensure that TODO is checked for each layer (see Advanced for more details)
   * Ensure that TODO is set to 1 for each layer (see Advanced for more details)
+* **Prioritise your layers**: Select a layer and use the up and down buttons on the screen to change the cut order. Layers should be done in this order: Engraving/Etching, Internal cuts, Final cut outs. This reduces the likelihood that your material will shift during the cut.
 * Select or deselect `Immediate` as required.
   * Immediate mode will cut your design relative to the position of the head when you press start. (top left) (see Advanced for more details)
   * Absolute (unchecked immediate) mode will cut your design wherever it is placed on the bed.
