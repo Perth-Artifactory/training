@@ -26,7 +26,7 @@ This is a copy of the [operation checklist](./operation_checklist.md) with annot
 * Unjoined/broken lines
 * Design placement (Absolute v relative)
 * How to download files to the laser
-* Accurate and innacurate time estimates
+* Accurate and inaccurate time estimates
   
 A demonstration file can be found [here](./flex%20logo%20TRAINING.dxf) or in `\\filer\shared\Resources\Laser\Training`. The files labelled as "training" have a broken vector on the first letter of Artifactory that will need to be joined before it can be engraved.
 </details>
@@ -43,7 +43,7 @@ A demonstration file can be found [here](./flex%20logo%20TRAINING.dxf) or in `\\
 * **Place your material on the bed**
   * **Make sure that your material will fit under the head**. Because Big Red's bed can move up and down it's possible for the bed to be raised to a point where your material will not fit. To lower the bed press the `Z` button to switch into vertical mode and use the down arrow. To exit vertical mode press the `Z` button again.
   * **Square your material**. The bed itself is free to slide around and cannot be relied upon to be square. The only horizontal squared surface is the gantry. (The bar that the laser head moves left and right on)
-  * **If engraving ensure enough space has been left on both sides of your job**. To ensure consistant engraves Big Red adds speed up/slow down buffers on each side. Unfortunately it does not take this buffer into account when determining whether your job will fit. To account for this make sure that there is at least a 5cm gap between your engrave and the edge of the bed on the horizontal axis. Don't worry, the laser isn't firing during the buffer space.
+  * **If engraving ensure enough space has been left on both sides of your job**. To ensure consistent engraves Big Red adds speed up/slow down buffers on each side. Unfortunately it does not take this buffer into account when determining whether your job will fit. To account for this make sure that there is at least a 5cm gap between your engrave and the edge of the bed on the horizontal axis. Don't worry, the laser isn't firing during the buffer space.
   * **Check whether your design will fit on your material**. The `test` button will use the head to trace a *rectangular* bounding box. You can use this bounding box to estimate whether your design will fit. The only consequence of your design not fitting is the completeness of your final piece, the laser can safely be directed at the laser bed without issue.
     * If LaserCut is set to `absolute` mode the test button will first move the head to the corner of the design as decided by the layout within LaserCut
     * If LaserCut is set to `immediate` mode the test button will trace out your design by assuming that the head starts at the top left
@@ -52,18 +52,18 @@ A demonstration file can be found [here](./flex%20logo%20TRAINING.dxf) or in `\\
 
   Emphasising the rectangular nature of the test will help operators down the line when engraving round designs.
   
-  It's really easy for a trainee to focus on allignment by using the controls, remind them that they can also physically move their material as well.
+  It's really easy for a trainee to focus on alignment by using the controls, remind them that they can also physically move their material as well.
 </details>
 
  * **Focus the laser**
    * Check whether the material you're cutting is hard or soft. If your material is soft (like foam, leather, fabric, toast etc) find a piece of hard material (wood/acrylic/metal) that is similar in thickness to your material and perform the following steps on the hard material instead. Once the laser is focused you can swap back to your intended material.
-   * Ensure that the Z probe (the stick on the left hand side of the cutting head) is over the *center of your desired cutting area*. Failure to position the probe direclty over your material during this step has a high likelyhood of damaging the machine.
+   * Ensure that the Z probe (the stick on the left hand side of the cutting head) is over the *centre of your desired cutting area*. Failure to position the probe direclty over your material during this step has a high likelyhood of damaging the machine.
    * Switch the laser into Z/vertical mode by pressing the `Z` button.
    * Place your hand over the emergency stop button. In the event that the z probe fails to register during the next step the only thing preventing damage to the machine is your reaction time pressing the emergency stop button.
-   * Press the `Datum` button. The bed will rise until the sensor on the Z probe is depressed. It will then lower the bed a preconfigured amount.
+   * Press the `Datum` button. The bed will rise until the sensor on the Z probe is depressed. It will then lower the bed a pre-configured amount.
    * Repeat this process when changing the thickness of the material you're cutting or when you significantly reposition your material on the bed.
 <details><summary>Trainer advice</summary>
-  Unlike almost everything else in this process this is the one step where mistakes have a high likelyhood to damage the machine. Emphasise that if the probe is caught in the bed they cannot fix the problem by themselves. Outline the various ways they can contact people for help (Laser maintainers in the space, Slack, Blake's details on the wall). The absolute worst thing they can do is turn the machine back on, until that happens the problem is an easy fix for any maintainer.
+  Unlike almost everything else in this process this is the one step where mistakes have a high likelihood to damage the machine. Emphasise that if the probe is caught in the bed they cannot fix the problem by themselves. Outline the various ways they can contact people for help (Laser maintainers in the space, Slack, Blake's details on the wall). The absolute worst thing they can do is turn the machine back on, until that happens the problem is an easy fix for any maintainer.
   
   Your trainee needs to be comfortable with pressing the emergency stop, get them to press it now and show them that the head returns to the top right when the machine is powered up.
   
@@ -73,13 +73,13 @@ A demonstration file can be found [here](./flex%20logo%20TRAINING.dxf) or in `\\
 </details>
 
  * **Check the temperature on the chiller**. There is a display on the front of the chiller. It is safe to operate when the chiller is displaying 25.5C or lower. If the temperature is above this limit wait a few minutes and check again.
- * **Familiarise yourself with the location of your fire suppression equipment**. Identify your closest spray bottle, fire blanket, and fire exstinguisher.
+ * **Familiarise yourself with the location of your fire suppression equipment**. Identify your closest spray bottle, fire blanket, and fire extinguisher.
 <details><summary>Trainer advice</summary>
-  Talk about the almost ever-present risk of fire and the likelyhood of small/large fires. Point out that the ground they're standing on isn't flammable and in almost all cases the easiest solution is to just calmly take the material out of the bed.
+  Talk about the almost ever-present risk of fire and the likelihood of small/large fires. Point out that the ground they're standing on isn't flammable and in almost all cases the easiest solution is to just calmly take the material out of the bed.
   
-  Physically touch each piece of equipment when talking about it and ensure that the trainee is familiar with their operation. If the answer to "Have you used a fire exstinguisher/blanket before?" is not a confident "yes" explain their operation.
+  Physically touch each piece of equipment when talking about it and ensure that the trainee is familiar with their operation. If the answer to "Have you used a fire extinguisher/blanket before?" is not a confident "yes" explain their operation.
   
-  We often see small fires when cutting "non standard" material like some cardboards, fabric, and if the head is run too slowly. Reassure the trainee that the vast majority of fires only happen when cutting under these circumstances and that we have never needed to use the fire blanket/exstinguisher on the lasers.
+  We often see small fires when cutting "non standard" material like some cardboard, fabric, and if the head is run too slowly. Reassure the trainee that the vast majority of fires only happen when cutting under these circumstances and that we have never needed to use the fire blanket/extinguisher on the lasers.
 </details>
 
  * **Turn on the air assist**. Turn the red lever on the left hand side of the machine 90 degrees to open the air valve. Put your hand under the head to confirm that the air is flowing correctly through the head and not through a hole in the air line.
