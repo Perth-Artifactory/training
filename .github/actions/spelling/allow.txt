@@ -1,5 +1,9 @@
 Artifactory
 dxf
+eps
+svg
+hdpe
+inkscape
 reposition
 colour
 discolouration
