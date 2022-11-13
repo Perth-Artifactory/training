@@ -8,7 +8,7 @@
 * **Define your layers**: Layers are configured using the box in the top right.
   * Change the drop down next to each layer to either `Cut` or `Engrave` as required. Cut draws a line, engrave fills an area.
   * Double click on the coloured bar next to each layer to configure speed/power.
-    * Speed is measured in mm/s and has an upper limit of 200/400 on Big Red and Little Red respectively. Set the corner speed to the same value. (see Advanced for more details)
+    * Speed is measured in mm/s and has an upper limit of 200/400 on Big Red and Little Red respectively. Set the corner speed to the same value. (see Advanced for more details). When **engraving** the upper limit for Big Red is 600mm/s.
     * Power is measured in a % of 100. The minimum power you can realistically achieve on Big Red is likely to be around 20%.
     * Scan gap is the distance between each line of an engrave. It is not present when the selected layer is set to Cut.
   * Ensure that TODO is checked for each layer (see Advanced for more details)
