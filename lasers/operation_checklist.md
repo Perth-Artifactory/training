@@ -18,7 +18,7 @@ Checklists for operating the lasers
     * If the laser presents a `Soft Stop` error and emits a long beep your intended cut will cause the machine to go out of bounds. This has four primary causes:
       * Your design is too big
       * The head isn't positioned close enough to the top left to accommodate the size of the design
-      * There are rouge lines in LaserCut. This can be checked by dragging a selection box around your design and pressing delete. If all of the entries in the layer list fail to disappear you have rogue lines somewhere outside the confines of the bed.
+      * There are rogue lines in LaserCut. This can be checked by dragging a selection box around your design and pressing delete. If all of the entries in the layer list fail to disappear you have rogue lines somewhere outside the confines of the bed.
       * The laser origin point has been changed. Use Laser -> Set laser origin -> `TODO` to correct. You will need to download your job again.
  * **Focus the laser** 
    * Check whether the material you're cutting is hard or soft. If your material is soft (like foam, leather, fabric, toast etc) find a piece of hard material (wood/acrylic/metal) that is similar in thickness to your material and perform the following steps on the hard material instead. Once the laser is focused you can swap back to your intended material.
