@@ -2,6 +2,10 @@
 
 This is a copy of the [operation checklist](./operation_checklist.md) with annotations intended for laser trainers.
 
+<details><summary>Extra advice can be exapnded bu clicking these sections</summary>
+  This is an expanded section with more information for the trainer!
+</details>
+
 ### All
 
 * What to expect from training (how many sessions, what's involved for each session)
