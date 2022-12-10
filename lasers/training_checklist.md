@@ -32,7 +32,11 @@ This is a copy of the [operation checklist](./operation_checklist.md) with annot
 * How to download files to the laser
 * Accurate and inaccurate time estimates
   
-A demonstration file can be found [here](./flex%20logo%20TRAINING.dxf) or in `\\filer\shared\Resources\Laser\Training`. The files labelled as "training" have a broken vector on the first letter of Artifactory that will need to be joined before it can be engraved.
+A demonstration file can be found [here](./flex%20logo%20TRAINING.dxf) or in `\\filer\shared\Resources\Laser\Training`. The file labelled "TRAINING" is broken in the following ways:
+  
+  * A broken vector on the first letter of Artifactory that will need to be joined before it can be engraved.
+  * The size of the design is unreasonably large.
+  * There is an extra line crossing the "s" in makerspace.
 </details>
 
 * **Turn the laser on at the wall**
